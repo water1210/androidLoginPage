@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/ll_1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6ABFE8"
+        android:text="Welcome!"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:layout_marginHorizontal="@android:dimen/app_icon_size"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:gravity="center"
+        android:text="请输入您的登录信息："
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="#A6DDA8"
+        android:hint="用户名："
+
+        />
+
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="#85D9E1"
+        android:inputType="textPassword"
+        android:hint="密码："
+
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#F19ABA"
+        android:text="登录 有惊喜"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:backgroundTint="#9E64D8"
+        android:paddingBottom="20dp"
+        android:text="注册"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+</LinearLayout>
+
+

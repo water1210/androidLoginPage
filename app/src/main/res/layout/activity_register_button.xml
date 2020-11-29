@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterButton">
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/ll_2">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="请输入手机号码
+            进行用户注册："
+            android:textColor="@color/black"
+            android:textSize="50dp"
+            android:layout_marginBottom="@android:dimen/app_icon_size"
+            />
+
+
+
+      <EditText
+          android:layout_width="250dp"
+          android:layout_height="80dp"
+          android:background="#79DF9E"
+          android:layout_gravity="center"
+          android:hint="手机号码："
+          />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:background="#71C3D1"
+            android:layout_gravity="center"
+            android:hint="验证码："
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E1C57E"
+            android:layout_marginBottom="@android:dimen/app_icon_size"
+            android:text="发送验证码："
+            android:textColor="@color/black"
+            android:textSize="10dp"/>
+
+        <Button
+            android:layout_width="123dp"
+            android:layout_height="104dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#EDAF6D"
+            android:text="点击注册"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
